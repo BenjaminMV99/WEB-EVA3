@@ -71,7 +71,7 @@ if (isset($_SESSION['usuario'])) {
         <h5 class="center blue-text accent-2">Datos del vendedor</h5>            
     </div>
     <div class="card-action">
-        <form action="../controllers/C_inserUser.php" method="POST">
+        <form action="../controllers/C_insertUser.php" method="POST">
             <input id="rut" type="text" name="rut" placeholder="Ingrese rut del vededor">
             <input id="nombre" type="text" name="nombre" placeholder="Ingrese nombre del vedendor">
             <input type="hidden" name="rol" value="vendedor">
