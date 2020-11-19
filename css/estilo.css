@@ -4,7 +4,7 @@
     margin-top:20px;
     border-radius:10px;
     align-content:center;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0);
     text-align: center;
     
 }   
@@ -27,7 +27,7 @@ body{
     flex-direction: column;
     margin-bottom: 75px;  
     box-shadow:  10px 10px 20px rgba(49, 49, 49, 0.398);
-    background-color:rgba(255, 255, 255, 0.618);
+    background: rgba(255, 255, 255, 0.857);
     height: 400px;
     width: 400px;
     justify-content: center;

@@ -111,7 +111,7 @@ if (isset($_SESSION['usuario'])) {
                         <th>Rut</th>
                         <th>Nombre</th>
                         <th>Estado</th>
-                        <th>Acción</th>
+                        <th>Editar</th>
                     </tr>
                 <?php foreach ($usuario as $item) { ?>
                     <tr>
