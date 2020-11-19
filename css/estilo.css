@@ -27,7 +27,7 @@ body{
     flex-direction: column;
     margin-bottom: 75px;  
     box-shadow:  10px 10px 20px rgba(49, 49, 49, 0.398);
-    background-color:rgba(245, 245, 245, 0.618);
+    background-color:rgba(255, 255, 255, 0.618);
     height: 400px;
     width: 400px;
     justify-content: center;
@@ -54,4 +54,10 @@ body{
 
 .card-action{
     font-size: 10px;
+
+}
+
+.h6 h6{
+   color: cadetblue;
+   font-size: 25px;
 }

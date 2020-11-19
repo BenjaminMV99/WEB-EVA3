@@ -10,7 +10,7 @@
 <body style="background-image: url('icons/fondo.jpg'); font-family: 'Coustard', serif;">
 <nav class="teal darken-2">
     <div class="nav-wrapper">
-        <a href="clientes.php" class="brand-logo">Inico de administrador</a>
+        <a href="#" class="brand-logo" style="margin-left: 25px;">Inico de administrador</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="inedx.php"></a></li>
             <li><a href="./index.php">Regresar</a></li>
@@ -34,14 +34,13 @@
                                     }
                                 ?>
                             </p>
-                            <div class="card-action" style="margin-top: 20px; text-aling:center; justify-content:center;">
-                            <h5>Ingresar como administrador</h5>
+                            <div class="card-action" style="width:auto; margin-top: 20px; justify-content:center;">
+                            <h6 class="h6">Ingresar como administrador</h6>
                             <input type="text" name="rut" id="rut" placeholder="Ingrese su rut">
                             <input type="password" name="clave" id="clave" placeholder="ingrese su contraseña">
                             
                             <button class="btn teal darken-2">Ingresar</button>
                             </div>
-                            <p><a href="index.php" class="blue-text">Volver</a></p>  
                         </form>
                     </div>
                     </div>

@@ -26,7 +26,7 @@ if (isset($_SESSION['usuario'])) {
 
 <nav class="teal darken-2">
     <div class="nav-wrapper">
-        <a href="clientes.php" class="brand-logo">Inico de vendedor</a>
+        <a href="clientes.php" class="brand-logo" style="margin-left: 25px;">Inico de vendedor</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="inedx.php"></a></li>
             <li><a href="./index.php">Regresar</a></li>
@@ -38,9 +38,9 @@ if (isset($_SESSION['usuario'])) {
         <div class="row">  
         <div class="col l4 m4 s12"></div>
             <div class="col l4 m4 s12">
-
-                    <div class="login">
-                    <h5>Ingresar como administrador</h5>
+                    <div class="card">
+                    <div class="card-action">
+                    <h6 class="h6">Ingresar como vendedor</h6>
                         <form action="controllers/C_loginUser.php" method="POST">
                             <p class="red-text">
                                 <?php
@@ -51,13 +51,10 @@ if (isset($_SESSION['usuario'])) {
                                     }
                                 ?>
                             </p>
-                            <div class="login-admin">
                             <input type="text" name="rut" id="rut" placeholder="Ingrese su rut">
                             <input type="password" name="clave" id="clave" placeholder="ingrese su contraseña">
-                            
-                            <button class="btn blue ancho-100 redondo">Ingresar</button>
-                            </div>
-                            <p><a href="index.php" class="blue-text">Volver</a></p>  
+                            <button class="btn teal darken-2">Ingresar</button>
+                            </div> 
                         </form>
                     </div>
                 

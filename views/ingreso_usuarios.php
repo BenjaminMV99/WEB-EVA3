@@ -30,9 +30,9 @@ if (isset($_SESSION['usuario'])) {
     <?php if (isset($_SESSION['usuario'])) { ?>
         <nav class="teal darken-2">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Bienvenido: <?= $_SESSION['usuario']['nombre'] ?></a>
+                <a href="#" class="brand-logo" style="margin-left: 25px;">Ingreso de vendedores </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li class="active"><a href="gestion.php">Ingreso de vendedores</a></li>
+                    <li class="active"><a href="#">Ingreso de vendedores</a></li>
                     <li><a href="exit.php">Salir</a></li>
                 </ul>
             </div>

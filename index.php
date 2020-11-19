@@ -13,7 +13,7 @@
 <body style="background-image: url('icons/fondo.jpg'); font-family: 'Coustard', serif;">
 <nav class="teal darken-2">
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">BMV optica</a>
+      <a href="#" class="brand-logo" style="margin-left: 50px;">BMV optica</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="sass.html"></a></li>
         <li><a href="views/abaut.php">Acerca de</a></li>
@@ -35,7 +35,6 @@
                 </div>  
         </div>
     </div>
-
 
 </body>
 </html>
