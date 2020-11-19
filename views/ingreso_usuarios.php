@@ -32,8 +32,8 @@ if (isset($_SESSION['usuario'])) {
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo" style="margin-left: 25px;">Ingreso de vendedores </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li class="active"><a href="#">Ingreso de vendedores</a></li>
-                    <li><a href="exit.php">Salir</a></li>
+                    <li><a href="exit.php">regresar</a></li>
+                    <li><a href="exit.php"></a></li>
                 </ul>
             </div>
         </nav>

@@ -27,10 +27,9 @@ if (isset($_SESSION['user'])) {
 <body style="background-image: url('../icons/fondo.jpg'); font-family: 'Coustard', serif;">
 <nav class="teal darken-2">
     <div class="nav-wrapper">
-        <a href="clientes.php" style="margin-left: 20px;" class="brand-logo">Ingreso de clientes</a>
+        <a href="#" style="margin-left: 20px;" class="brand-logo">Ingreso de clientes</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class="active"><a href="clientes.php">Crear Cliente</a></li>
-            <li><a href="exit.php">Salir</a></li>
+            <li><a href="exit.php">regresar</a></li>
             <li><a href="exit.php"></a></li>
         </ul>
     </div>
