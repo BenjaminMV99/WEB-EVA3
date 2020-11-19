@@ -22,8 +22,8 @@
         <div class="row">  
         <div class="col l4 m4 s12"></div>
             <div class="col l4 m4 s12">
-                <div class="card">
-                    <div class="card-action">
+            <div class="card" style="text-align: center;">
+                <div class="card-action fondo " style="margin-top: 20px; ">
                         <form action="controllers/C_loginAdmin.php" method="POST">
                             <p class="red-text">
                                 <?php
@@ -34,15 +34,15 @@
                                     }
                                 ?>
                             </p>
-                            <div class="card-action" style="width:auto; margin-top: 20px; justify-content:center;">
-                            <h6 class="h6">Ingresar como administrador</h6>
+   
+                            <h6 class="h6">Ingresar sus credenciales</h6>
                             <input type="text" name="rut" id="rut" placeholder="Ingrese su rut">
                             <input type="password" name="clave" id="clave" placeholder="ingrese su contraseña">
-                            
+                            <br><br>
                             <button class="btn teal darken-2">Ingresar</button>
                             </div>
                         </form>
-                    </div>
+                  
                     </div>
                 </div>
             </div>

@@ -38,9 +38,9 @@ if (isset($_SESSION['usuario'])) {
         <div class="row">  
         <div class="col l4 m4 s12"></div>
             <div class="col l4 m4 s12">
-                    <div class="card">
-                    <div class="card-action">
-                    <h6 class="h6">Ingresar como vendedor</h6>
+            <div class="card" style="text-align: center;">
+                <div class="card-action fondo " style="margin-top: 20px; ">
+                    <h6 class="h6">Ingresar sus credenciales</h6>
                         <form action="controllers/C_loginUser.php" method="POST">
                             <p class="red-text">
                                 <?php

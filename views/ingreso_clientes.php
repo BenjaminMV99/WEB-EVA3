@@ -39,9 +39,9 @@ if (isset($_SESSION['user'])) {
                 <div class="row">
                     <div class="col l2 m4 s12"></div>
                     <div class="col l8 m4 s12">
-                        <div class="card" style="justify-content: center;">
-                            <div class="card-action" style="align-items: center;">
-                                <h6 class="blue-text">Nuevo Cliente</h6>
+                        <div class="card" style="text-align: center;">
+                            <div class="card-action">
+                                <h5 class="blue-text">Ingrese datos del cliente</h5>
                                 <form action="../controllers/C_insertCliente.php" method="POST">
                                     <p class="green-text">
                                         <?php
