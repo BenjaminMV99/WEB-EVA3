@@ -54,6 +54,7 @@ if (isset($_SESSION['usuario'])) {
                             </p>
                             <input type="text" name="rut" id="rut" placeholder="Ingrese su rut">
                             <input type="password" name="clave" id="clave" placeholder="ingrese su contraseña">
+                            <br><br>
                             <button class="btn teal darken-2">Ingresar</button>
                             </div> 
                         </form>
