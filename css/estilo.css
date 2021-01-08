@@ -1,0 +1,68 @@
+.card-panel{
+    width:200px;
+    margin:0 auto;
+    margin-top:20px;
+    border-radius:10px;
+    align-content:center;
+    background: rgba(255, 255, 255, 0);
+    text-align: center;
+    
+}   
+
+body{
+    background-color: teal accent-4;
+}
+
+.log{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 30px;
+    margin: 50px;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;  
+    box-shadow:  10px 10px 20px rgba(49, 49, 49, 0.398);
+    background: white;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.login img{
+    width: 200px;
+
+}
+
+.login a {
+    font-size: 25px;
+    color: rgb(0, 145, 150);
+    text-shadow: 3px 3px 10px rgb(128, 126, 126);
+}
+
+.login h5{
+    font-size: 25px;
+    color: rgb(0, 145, 150);
+    text-shadow: 3px 3px 10px rgb(128, 126, 126);
+}
+
+.card-action{
+    font-size: 10px;
+
+}
+
+.h6 h6{
+   color: cadetblue;
+   font-size: 25px;
+}
+.fondo{
+        width: 400px;
+        height: 200;
+         
+}
